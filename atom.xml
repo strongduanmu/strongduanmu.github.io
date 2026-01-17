@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>端小强的博客</title>
+  <icon>https://strongduanmu.com/icon.png</icon>
+  
+  <link href="https://strongduanmu.com/atom.xml" rel="self"/>
+  
+  <link href="https://strongduanmu.com/"/>
+  <updated>2026-01-17T00:00:00.000Z</updated>
+  <id>https://strongduanmu.com/</id>
+  
+  <author>
+    <name>端小强</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>百倍提速！ShardingSphere 联邦查询批量 IN 查询深度优化</title>
+    <link href="https://strongduanmu.com/blog/speed-up-by-100x-shardingsphere-sql-federation-in-predicate-deep-optimization-practice.html"/>
+    <id>https://strongduanmu.com/blog/speed-up-by-100x-shardingsphere-sql-federation-in-predicate-deep-optimization-practice.html</id>
+    <published>2026-01-13T00:00:00.000Z</published>
+    <updated>2026-01-17T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题背景&quot;&gt;&lt;/a&gt; 问题背景&lt;/h2&gt;
+&lt;p&gt;最近，用户在测试 ShardingSphere 联邦查询功能时，反馈了 1 条 &lt;code&gt;2w6k&lt;/code&gt; 行的超长</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 SQLancer 测试 ShardingSphere 联邦查询</title>
+    <link href="https://strongduanmu.com/blog/use-sqlancer-to-test-shardingsphere-sql-federation.html"/>
+    <id>https://strongduanmu.com/blog/use-sqlancer-to-test-shardingsphere-sql-federation.html</id>
+    <published>2025-12-10T00:24:20.000Z</published>
+    <updated>2025-12-29T00:30:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;在上一篇文章 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="SQLancer" scheme="https://strongduanmu.com/tags/SQLancer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere 联邦查询 GROUPING 聚合结果问题分析</title>
+    <link href="https://strongduanmu.com/blog/analyze-wrong-result-for-shardingsphere-sql-federation-grouping-function.html"/>
+    <id>https://strongduanmu.com/blog/analyze-wrong-result-for-shardingsphere-sql-federation-grouping-function.html</id>
+    <published>2025-11-03T00:52:14.000Z</published>
+    <updated>2025-11-08T00:52:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题背景&quot;&gt;&lt;/a&gt; 问题背景&lt;/h2&gt;
+&lt;p&gt;上周笔者所在公司客户反馈，使用商业版联邦查询进行复杂 SQL 聚合分析时，出现了</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite Catalog 拾遗之类型系统实现</title>
+    <link href="https://strongduanmu.com/blog/apache-calcite-catalog-type-system-implementation.html"/>
+    <id>https://strongduanmu.com/blog/apache-calcite-catalog-type-system-implementation.html</id>
+    <published>2025-10-30T00:00:00.000Z</published>
+    <updated>2025-10-30T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/commit/34989b0ed7793cedf713c2f159de6247a730458c&quot;&gt;Calcite main 分支 34989b0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>以 Calcite 为例探究 Join 算子的常用实现</title>
+    <link href="https://strongduanmu.com/blog/using-calcite-as-an-example-to-explore-the-common-implementation-of-join-operators.html"/>
+    <id>https://strongduanmu.com/blog/using-calcite-as-an-example-to-explore-the-common-implementation-of-join-operators.html</id>
+    <published>2025-03-31T00:00:00.000Z</published>
+    <updated>2025-03-31T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;TODO&lt;/p&gt;
+&lt;div class=&quot;tag-plugin quot&quot;&gt;&lt;p class=&quot;content&quot; type=&quot;text&quot;&gt;&lt;span class=&quot;empty&quot;&gt;&lt;/span&gt;&lt;span class=&quot;text&quot;&gt;写在最后&lt;/span&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite 在 MyCat2 中的实践探究</title>
+    <link href="https://strongduanmu.com/blog/explore-the-practice-of-apache-calcite-in-mycat2.html"/>
+    <id>https://strongduanmu.com/blog/explore-the-practice-of-apache-calcite-in-mycat2.html</id>
+    <published>2025-02-17T00:33:30.000Z</published>
+    <updated>2025-03-27T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/strongduanmu/Mycat2/commit/ced134b06ce8ed0b5b7a9894359a50513532bbb7&quot;&gt;MyCat2 main 分支</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Calcite UDF 实战之 ShardingSphere 联邦查询适配 MySQL BIT_COUNT</title>
+    <link href="https://strongduanmu.com/blog/calcite-udf-in-action-shardingsphere-sql-federation-adapte-to-mysql-bit-count.html"/>
+    <id>https://strongduanmu.com/blog/calcite-udf-in-action-shardingsphere-sql-federation-adapte-to-mysql-bit-count.html</id>
+    <published>2024-12-13T00:00:00.000Z</published>
+    <updated>2024-12-20T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;熟悉 Apache ShardingSphere 的朋友们，可能听说过 SQL Federation</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere Proxy 适配 MySQL addBatch/executeBatch 数组结果实战</title>
+    <link href="https://strongduanmu.com/blog/shardingsphere-proxy-adapt-mysql-add-batch-execute-batch-return-int-array-in-action.html"/>
+    <id>https://strongduanmu.com/blog/shardingsphere-proxy-adapt-mysql-add-batch-execute-batch-return-int-array-in-action.html</id>
+    <published>2024-11-22T12:14:04.000Z</published>
+    <updated>2024-11-24T11:45:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题背景&quot;&gt;&lt;/a&gt; 问题背景&lt;/h2&gt;
+&lt;p&gt;MySQL JDBC 驱动支持使用 &lt;code&gt;addBatch&lt;/code&gt; 和</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite Catalog 拾遗之 UDF 函数实现和扩展</title>
+    <link href="https://strongduanmu.com/blog/apache-calcite-catalog-udf-function-implementation-and-extension.html"/>
+    <id>https://strongduanmu.com/blog/apache-calcite-catalog-udf-function-implementation-and-extension.html</id>
+    <published>2024-09-23T00:00:00.000Z</published>
+    <updated>2024-10-23T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/commit/60e0a3f441a009e55a36cac192253a436bec3f6d&quot;&gt;Calcite main 分支</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GraalVM 编译动态链接库之 MySQL UDF 实现</title>
+    <link href="https://strongduanmu.com/blog/graalvm-compilation-of-dynamic-link-library-mysql-udf-implementation.html"/>
+    <id>https://strongduanmu.com/blog/graalvm-compilation-of-dynamic-link-library-mysql-udf-implementation.html</id>
+    <published>2024-09-07T12:00:00.000Z</published>
+    <updated>2024-09-11T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;在之前发布的 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="GraalVM" scheme="https://strongduanmu.com/categories/GraalVM/"/>
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/tags/JVM/"/>
+    
+    <category term="GraalVM" scheme="https://strongduanmu.com/tags/GraalVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PolarDB-X 开发环境搭建笔记</title>
+    <link href="https://strongduanmu.com/blog/polardb-x-dev-environment-setup-note.html"/>
+    <id>https://strongduanmu.com/blog/polardb-x-dev-environment-setup-note.html</id>
+    <published>2024-08-28T00:00:00.000Z</published>
+    <updated>2024-09-06T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/polardb/polardbx-sql/commit/63098891f8ad59d51f1d336db7c46539cc0ed91b&quot;&gt;PolarDB-X main 分支</summary>
+        
+      
+    
+    
+    
+    <category term="PolarDB-X" scheme="https://strongduanmu.com/categories/PolarDB-X/"/>
+    
+    
+    <category term="PolarDB-X" scheme="https://strongduanmu.com/tags/PolarDB-X/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java AOT 编译框架 GraalVM 快速入门</title>
+    <link href="https://strongduanmu.com/blog/java-aot-compiler-framework-graalvm-quick-start.html"/>
+    <id>https://strongduanmu.com/blog/java-aot-compiler-framework-graalvm-quick-start.html</id>
+    <published>2024-08-13T00:00:00.000Z</published>
+    <updated>2024-08-22T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;graalvm-诞生的背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#graalvm-诞生的背景&quot;&gt;&lt;/a&gt; GraalVM 诞生的背景&lt;/h2&gt;
+&lt;p&gt;过去 20 多年，Java</summary>
+        
+      
+    
+    
+    
+    <category term="GraalVM" scheme="https://strongduanmu.com/categories/GraalVM/"/>
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/tags/JVM/"/>
+    
+    <category term="GraalVM" scheme="https://strongduanmu.com/tags/GraalVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无关性的基石之 Java 字节码技术初探</title>
+    <link href="https://strongduanmu.com/blog/cornerstone-of-irrelevance-preliminary-study-of-java-bytecode-technology.html"/>
+    <id>https://strongduanmu.com/blog/cornerstone-of-irrelevance-preliminary-study-of-java-bytecode-technology.html</id>
+    <published>2024-07-25T23:30:00.000Z</published>
+    <updated>2024-08-03T23:30:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;熟悉 Java 语言的朋友应该都听过 &lt;code&gt;Write Once, Run Anywhere.&lt;/code&gt; 这样的口号，它主要阐述地是</summary>
+        
+      
+    
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/categories/JVM/"/>
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ANTLR 解析性能优化指南</title>
+    <link href="https://strongduanmu.com/blog/improving-the-performance-of-an-antlr-parser.html"/>
+    <id>https://strongduanmu.com/blog/improving-the-performance-of-an-antlr-parser.html</id>
+    <published>2024-06-26T10:00:00.000Z</published>
+    <updated>2024-07-07T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文翻译自 &lt;a href=&quot;https://tomassetti.me/improving-the-performance-of-an-antlr-parser/&quot;&gt;Improving the performance of an ANTLR</summary>
+        
+      
+    
+    
+    
+    <category term="Antlr" scheme="https://strongduanmu.com/categories/Antlr/"/>
+    
+    
+    <category term="Antlr" scheme="https://strongduanmu.com/tags/Antlr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 虚拟机指令操作码和助记符映射关系</title>
+    <link href="https://strongduanmu.com/blog/opcode-mnemonics-by-opcode.html"/>
+    <id>https://strongduanmu.com/blog/opcode-mnemonics-by-opcode.html</id>
+    <published>2024-06-25T10:50:22.000Z</published>
+    <updated>2024-06-26T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;本文整理了 &lt;strong&gt;Java 虚拟机指令操作码和助记符之间的映射关系&lt;/strong&gt;，可以用于日常学习 Java</summary>
+        
+      
+    
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/categories/JVM/"/>
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深度探究 Apache Calcite SQL 校验器实现原理</title>
+    <link href="https://strongduanmu.com/blog/in-depth-exploration-of-implementation-principle-of-apache-calcite-sql-validator.html"/>
+    <id>https://strongduanmu.com/blog/in-depth-exploration-of-implementation-principle-of-apache-calcite-sql-validator.html</id>
+    <published>2024-05-28T00:00:00.000Z</published>
+    <updated>2024-06-20T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM 学习资料整理</title>
+    <link href="https://strongduanmu.com/blog/jvm-learning-materials.html"/>
+    <id>https://strongduanmu.com/blog/jvm-learning-materials.html</id>
+    <published>2024-05-11T00:31:00.000Z</published>
+    <updated>2024-06-21T00:31:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;JVM 虚拟机原理及其相关的调优技术是每一位 Java 工程师必备的技能，随着 JDK</summary>
+        
+      
+    
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/categories/JVM/"/>
+    
+    
+    <category term="JVM" scheme="https://strongduanmu.com/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初探分布式事务常见方案及实现原理</title>
+    <link href="https://strongduanmu.com/blog/basic-introduction-to-common-distributed-transaction-solutions.html"/>
+    <id>https://strongduanmu.com/blog/basic-introduction-to-common-distributed-transaction-solutions.html</id>
+    <published>2024-04-26T01:26:16.000Z</published>
+    <updated>2024-04-28T23:26:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h2 id=&quot;什么是分布式事务&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Transaction" scheme="https://strongduanmu.com/categories/Transaction/"/>
+    
+    
+    <category term="Transaction" scheme="https://strongduanmu.com/tags/Transaction/"/>
+    
+    <category term="Distributed Transaction" scheme="https://strongduanmu.com/tags/Distributed-Transaction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BenchmarkSQL &amp; ShardingSphere-JDBC 性能测试实战</title>
+    <link href="https://strongduanmu.com/blog/use-benchmark-sql-test-shardingsphere-jdbc-performance.html"/>
+    <id>https://strongduanmu.com/blog/use-benchmark-sql-test-shardingsphere-jdbc-performance.html</id>
+    <published>2024-02-20T10:07:01.000Z</published>
+    <updated>2024-02-20T10:07:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;tpc-c-模型简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#tpc-c-模型简介&quot;&gt;&lt;/a&gt; TPC-C 模型简介&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.tpc.org/tpcc/&quot;&gt;TPC&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="In Action" scheme="https://strongduanmu.com/tags/In-Action/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CBO 优化的基石——Apache Calcite 统计信息和代价模型详解</title>
+    <link href="https://strongduanmu.com/blog/cornerstone-of-cbo-optimization-apache-calcite-statistics-and-cost-model.html"/>
+    <id>https://strongduanmu.com/blog/cornerstone-of-cbo-optimization-apache-calcite-statistics-and-cost-model.html</id>
+    <published>2024-01-09T00:30:21.000Z</published>
+    <updated>2024-03-17T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深入理解 Apache Calcite ValcanoPlanner 优化器</title>
+    <link href="https://strongduanmu.com/blog/deep-understand-of-apache-calcite-volcano-planner.html"/>
+    <id>https://strongduanmu.com/blog/deep-understand-of-apache-calcite-volcano-planner.html</id>
+    <published>2023-12-06T00:17:59.000Z</published>
+    <updated>2023-12-06T00:17:59.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Wireshark 解决 BenchmarkSQL 压测 Proxy 异常</title>
+    <link href="https://strongduanmu.com/blog/use-wireshark-to-solve-benchmarksql-exception-with-shardingsphere-proxy.html"/>
+    <id>https://strongduanmu.com/blog/use-wireshark-to-solve-benchmarksql-exception-with-shardingsphere-proxy.html</id>
+    <published>2023-12-05T03:31:34.000Z</published>
+    <updated>2023-12-05T03:31:34.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#问题背景&quot;&gt;&lt;/a&gt; 问题背景&lt;/h2&gt;
+&lt;p&gt;最近 ShardingSphere 社区用户反馈，他使用 BenchmarkSQL 工具对 ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="In Action" scheme="https://strongduanmu.com/categories/In-Action/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="In Action" scheme="https://strongduanmu.com/tags/In-Action/"/>
+    
+    <category term="Wireshark" scheme="https://strongduanmu.com/tags/Wireshark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深入理解 Apache Calcite HepPlanner 优化器</title>
+    <link href="https://strongduanmu.com/blog/deep-understand-of-apache-calcite-hep-planner.html"/>
+    <id>https://strongduanmu.com/blog/deep-understand-of-apache-calcite-hep-planner.html</id>
+    <published>2023-11-20T11:32:33.000Z</published>
+    <updated>2023-11-20T11:32:33.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite System Catalog 实现探究</title>
+    <link href="https://strongduanmu.com/blog/explore-apache-calcite-system-catalog-implementation.html"/>
+    <id>https://strongduanmu.com/blog/explore-apache-calcite-system-catalog-implementation.html</id>
+    <published>2023-10-30T00:45:38.000Z</published>
+    <updated>2024-04-03T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 MySQL Test Framework 测试 ShardingSphere 联邦查询</title>
+    <link href="https://strongduanmu.com/blog/use-mysql-test-framework-test-shardingsphere-sql-federation.html"/>
+    <id>https://strongduanmu.com/blog/use-mysql-test-framework-test-shardingsphere-sql-federation.html</id>
+    <published>2023-10-29T06:20:55.000Z</published>
+    <updated>2023-10-29T06:20:55.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;mysql-test-framework-简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#mysql-test-framework-简介&quot;&gt;&lt;/a&gt; MySQL Test Framework</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite SQL Parser 原理剖析</title>
+    <link href="https://strongduanmu.com/blog/implementation-principle-of-apache-calcite-sql-parser.html"/>
+    <id>https://strongduanmu.com/blog/implementation-principle-of-apache-calcite-sql-parser.html</id>
+    <published>2023-10-09T00:28:49.000Z</published>
+    <updated>2023-10-09T00:28:49.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+    <category term="JavaCC" scheme="https://strongduanmu.com/tags/JavaCC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite 快速入门指南</title>
+    <link href="https://strongduanmu.com/blog/apache-calcite-quick-start-guide.html"/>
+    <id>https://strongduanmu.com/blog/apache-calcite-quick-start-guide.html</id>
+    <published>2023-09-24T06:46:43.000Z</published>
+    <updated>2023-09-24T06:46:43.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：本文基于 &lt;a href=&quot;https://github.com/apache/calcite/tree/75750b78b5ac692caa654f506fc1515d4d3991d6&quot;&gt;Calcite 1.35.0&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache Calcite 学习资料整理</title>
+    <link href="https://strongduanmu.com/blog/apache-calcite-learning-materials.html"/>
+    <id>https://strongduanmu.com/blog/apache-calcite-learning-materials.html</id>
+    <published>2023-09-18T00:39:23.000Z</published>
+    <updated>2024-03-23T00:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;Apache Calcite 是一个优秀的动态数据管理框架，提供了如：SQL 解析、SQL 校验、SQL 查询优化、SQL</summary>
+        
+      
+    
+    
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/categories/Calcite/"/>
+    
+    
+    <category term="Query Optimization" scheme="https://strongduanmu.com/tags/Query-Optimization/"/>
+    
+    <category term="Calcite" scheme="https://strongduanmu.com/tags/Calcite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于 SQLLine 快速体验 ShardingSphere JDBC</title>
+    <link href="https://strongduanmu.com/blog/quickly-start-shardingsphere-jdbc-with-sqlline.html"/>
+    <id>https://strongduanmu.com/blog/quickly-start-shardingsphere-jdbc-with-sqlline.html</id>
+    <published>2023-08-29T02:55:41.000Z</published>
+    <updated>2023-08-29T02:55:41.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;sqlline-简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#sqlline-简介&quot;&gt;&lt;/a&gt; SQLLine 简介&lt;/h2&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h2 id=&quot;shardingsphere-jdbc-打包&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="SQLLine" scheme="https://strongduanmu.com/tags/SQLLine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 学习资料整理</title>
+    <link href="https://strongduanmu.com/blog/mysql-learning-materials.html"/>
+    <id>https://strongduanmu.com/blog/mysql-learning-materials.html</id>
+    <published>2023-08-11T00:36:28.000Z</published>
+    <updated>2023-08-11T00:36:28.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;MySQL 是当前最流行的开源数据库，国内外众多公司基本都使用 MySQL 来支撑核心业务，学习 MySQL</summary>
+        
+      
+    
+    
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/categories/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere 5.3.1 新特性之动态数据脱敏</title>
+    <link href="https://strongduanmu.com/blog/shardingsphere-5.3.1-new-feature-dynamic-data-masking.html"/>
+    <id>https://strongduanmu.com/blog/shardingsphere-5.3.1-new-feature-dynamic-data-masking.html</id>
+    <published>2023-01-17T02:27:56.000Z</published>
+    <updated>2023-01-17T02:27:56.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文首发于 &lt;a href=&quot;https://mp.weixin.qq.com/s/Ga0k93PTlFQNZ6jd18cCbg&quot;&gt;Apache ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 5.7.40 安装及初始化配置指南</title>
+    <link href="https://strongduanmu.com/blog/mysql-5.7.40-install-and-initial-config-guide.html"/>
+    <id>https://strongduanmu.com/blog/mysql-5.7.40-install-and-initial-config-guide.html</id>
+    <published>2022-11-18T01:00:00.000Z</published>
+    <updated>2022-11-18T01:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;MySQL 是当前主流的开源关系型数据库，学习 MySQL</summary>
+        
+      
+    
+    
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/categories/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://strongduanmu.com/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere Proxy 集成测试代码调试实战</title>
+    <link href="https://strongduanmu.com/blog/shardingsphere-proxy-integration-test-debug-in-action.html"/>
+    <id>https://strongduanmu.com/blog/shardingsphere-proxy-integration-test-debug-in-action.html</id>
+    <published>2022-04-22T02:47:24.000Z</published>
+    <updated>2022-04-22T02:47:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;在&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="In Action" scheme="https://strongduanmu.com/categories/In-Action/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="Java" scheme="https://strongduanmu.com/tags/Java/"/>
+    
+    <category term="Remote Debugging" scheme="https://strongduanmu.com/tags/Remote-Debugging/"/>
+    
+    <category term="Docker" scheme="https://strongduanmu.com/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Java 远程调试技术定位系统表加载问题</title>
+    <link href="https://strongduanmu.com/blog/use-java-remote-debugging-to-locate-system-table-loading-bug.html"/>
+    <id>https://strongduanmu.com/blog/use-java-remote-debugging-to-locate-system-table-loading-bug.html</id>
+    <published>2022-03-30T03:15:27.000Z</published>
+    <updated>2022-03-30T03:15:27.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#背景&quot;&gt;&lt;/a&gt; 背景&lt;/h2&gt;
+&lt;p&gt;在最近的工作中，笔者负责开发了 &lt;code&gt;ShardingSphere 系统表&lt;/code&gt; 功能，该功能会在 ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="In Action" scheme="https://strongduanmu.com/categories/In-Action/"/>
+    
+    
+    <category term="Java" scheme="https://strongduanmu.com/tags/Java/"/>
+    
+    <category term="Remote Debugging" scheme="https://strongduanmu.com/tags/Remote-Debugging/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere 5.1.0 执行引擎性能优化揭秘</title>
+    <link href="https://strongduanmu.com/blog/shardingsphere-5.1.0-execution-engine-performance-optimization.html"/>
+    <id>https://strongduanmu.com/blog/shardingsphere-5.1.0-execution-engine-performance-optimization.html</id>
+    <published>2022-03-03T10:18:18.000Z</published>
+    <updated>2024-03-08T07:44:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文首发于 &lt;a href=&quot;https://mp.weixin.qq.com/s/Mn9K-mn1P7oX0G5PorZRMw&quot;&gt;Apache ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="Kernel" scheme="https://strongduanmu.com/tags/Kernel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关系系统查询优化概述论文学习</title>
+    <link href="https://strongduanmu.com/blog/an-overview-of-query-optimization-in-relational-systems.html"/>
+    <id>https://strongduanmu.com/blog/an-overview-of-query-optimization-in-relational-systems.html</id>
+    <published>2022-01-18T00:39:23.000Z</published>
+    <updated>2022-01-18T00:39:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文翻译自论文 &lt;a href=&quot;https://web.stanford.edu/class/cs345d-01/rl/chaudhuri98.pdf&quot;&gt;An Overview of Query Optimization in Relational</summary>
+        
+      
+    
+    
+    
+    <category term="Paper" scheme="https://strongduanmu.com/categories/Paper/"/>
+    
+    
+    <category term="Query Optimization" scheme="https://strongduanmu.com/tags/Query-Optimization/"/>
+    
+    <category term="Paper" scheme="https://strongduanmu.com/tags/Paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ShardingSphere 5.0.0 内核优化及升级指南</title>
+    <link href="https://strongduanmu.com/blog/shardingsphere-5.0.0-kernel-optimization-and-upgrade-guide.html"/>
+    <id>https://strongduanmu.com/blog/shardingsphere-5.0.0-kernel-optimization-and-upgrade-guide.html</id>
+    <published>2021-11-27T09:18:02.000Z</published>
+    <updated>2021-11-27T09:18:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文首发于 &lt;a href=&quot;https://mp.weixin.qq.com/s/KsW6tXyjFQSPTp3cRXBeLw&quot;&gt;Apache ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="Kernel" scheme="https://strongduanmu.com/tags/Kernel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS 开发环境搭建笔记</title>
+    <link href="https://strongduanmu.com/blog/centos-dev-environment-setup-note.html"/>
+    <id>https://strongduanmu.com/blog/centos-dev-environment-setup-note.html</id>
+    <published>2021-11-07T12:37:44.000Z</published>
+    <updated>2021-11-07T12:37:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;虽然日常办公使用 Mac 已经非常便利，但偶尔还是需要使用 Linux 环境进行一些开发工作。为了方便使用，本文使用</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://strongduanmu.com/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://strongduanmu.com/tags/Linux/"/>
+    
+    <category term="VirtualBox" scheme="https://strongduanmu.com/tags/VirtualBox/"/>
+    
+    <category term="CentOS" scheme="https://strongduanmu.com/tags/CentOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ANTLR 基础入门</title>
+    <link href="https://strongduanmu.com/blog/introduction-to-antlr.html"/>
+    <id>https://strongduanmu.com/blog/introduction-to-antlr.html</id>
+    <published>2021-07-31T00:57:21.000Z</published>
+    <updated>2024-03-23T01:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是-antlr&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#什么是-antlr&quot;&gt;&lt;/a&gt; 什么是 ANTLR&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ANTLR (ANother Tool for Language</summary>
+        
+      
+    
+    
+    
+    <category term="Antlr" scheme="https://strongduanmu.com/categories/Antlr/"/>
+    
+    
+    <category term="Antlr" scheme="https://strongduanmu.com/tags/Antlr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>探秘 ShardingSphere 5.0.0 beta 版内核增强</title>
+    <link href="https://strongduanmu.com/blog/explore-shardingsphere-5.0.0-beta-kernel-enhancement.html"/>
+    <id>https://strongduanmu.com/blog/explore-shardingsphere-5.0.0-beta-kernel-enhancement.html</id>
+    <published>2021-06-25T07:58:08.000Z</published>
+    <updated>2021-06-25T07:58:08.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文首发于 &lt;a href=&quot;https://mp.weixin.qq.com/s/iHhWqFDP67N3YFzUEYjbWg&quot;&gt;Apache ShardingSphere</summary>
+        
+      
+    
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/categories/ShardingSphere/"/>
+    
+    
+    <category term="ShardingSphere" scheme="https://strongduanmu.com/tags/ShardingSphere/"/>
+    
+    <category term="Kernel" scheme="https://strongduanmu.com/tags/Kernel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Charles 抓包下载钉钉群直播视频</title>
+    <link href="https://strongduanmu.com/blog/download-ding-talk-video-by-charles.html"/>
+    <id>https://strongduanmu.com/blog/download-ding-talk-video-by-charles.html</id>
+    <published>2021-06-19T02:46:35.000Z</published>
+    <updated>2021-06-19T02:46:35.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Tool" scheme="https://strongduanmu.com/categories/Tool/"/>
+    
+    
+    <category term="Charles" scheme="https://strongduanmu.com/tags/Charles/"/>
+    
+    <category term="FFmpeg" scheme="https://strongduanmu.com/tags/FFmpeg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java8 新特性实战</title>
+    <link href="https://strongduanmu.com/blog/java-8-new-features-in-action.html"/>
+    <id>https://strongduanmu.com/blog/java-8-new-features-in-action.html</id>
+    <published>2020-01-12T01:00:00.000Z</published>
+    <updated>2020-01-12T01:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;Java8 是 Oracle 公司在 2014 年 3 ⽉发布的版本，是 Java5</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="https://strongduanmu.com/categories/Java/"/>
+    
+    
+    <category term="Java8" scheme="https://strongduanmu.com/tags/Java8/"/>
+    
+  </entry>
+  
+</feed>
